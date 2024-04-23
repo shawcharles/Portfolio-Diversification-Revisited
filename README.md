@@ -12,9 +12,7 @@ The beta-parameter is used to specify the skewness. The delta-parameter is a sca
 Consider the following generic Markov Regime Switching (MRS) model:
 
 $$
-y_t = f(S_t, theta, psi_{t-1})
-S_t = g(tilde{S}_{t-1}, psi_{t-1})
-S_t in Lambda
+y_t = f(S_t, theta, psi_{t-1}), S_t = g(tilde{S}_{t-1}, psi_{t-1}), S_t \in Lambda
 $$
 
 where $\theta$ is the vector of the parameters of the model, $S_{t}$ is the state of the model at time $t$, $\psi_t:=\{y_k: k=1,\dots,t\}$ is the set of all observations up to $t$, $\tilde{S}_{t} := \{S_{1},...,S_{t}\}$ is the set of all observed states up to $t$, $\Lambda=\{1,...,M\}$ is the set of all possible states, and $g$ is the function that regulates transitions between states. Function $f$ indicates how observations at time $t$ depend on $S_t, \theta$, and $\psi_{t-1}$ and finally, $t \in \{0,1,...,T\}$, where $T \in \mathbb{N}\), \(T < +\infty$, is the terminal time.
