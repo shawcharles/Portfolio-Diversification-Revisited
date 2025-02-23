@@ -1,7 +1,7 @@
 clc
 clear all
 close all
-cd 'D:\AVINASH_PAPER_CODE\Chapter 2\code'
+cd 'C:\Users\charl\Documents\_JRFM\Portfolio-Diversification-Revisited\code'
 graine=888;
 rand('seed',graine);
 randn('seed',graine);
@@ -10,8 +10,7 @@ MC=10;
 ppp=0.1;
 
 
-%X=xlsread('mordata.xls','BB','b797:b5810');
-X=xlsread('newdata.csv','newdata','b2:b5164');
+X=xlsread('DATA.csv','DATA','b2:b6517');
 %X=100*(log(equity(2:end,:))-log(equity(1:end-1,:)));
 %Data=(log(equity(2:end,:))-log(equity(1:end-1,:)));
 
