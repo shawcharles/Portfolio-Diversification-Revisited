@@ -1,0 +1,141 @@
+run('C:\Users\charl\Documents\_JRFM\Portfolio-Diversification-Revisited\code\MAIN.m')
+ 
+Gamma=0 for base regime
+Gamma=0 for spike regime
+ 
+Two state regime switching model with mean-reverting process for spikes, LogL=-34711.719
+ 
+regime   phi_i   c_i      sigma^2_i  E(Y_{t,i})  Var(Y_{t,i})  q_ii     P(R=i)
+base    1.00160  -2.08322  724.09934    1299.64104         NaN       0.98795  0.68359
+spike   1.00084  -5.19334  41556.20481    6203.77304         NaN       0.97397  0.31641
+Parameters of our model
+               Regime 1    Regime 2
+Alpha:         -2.083217          -5.193337      
+Betha:         -0.001603          -0.000837      
+Sigma:         26.909094          203.853390      
+Et             1299.641043          6203.773040      
+q_ii           0.987950          0.973966      
+P(R=i)         0.683586          0.316414      
+Theta:         1299.641043         6203.773040
+Kappa:         -0.001603         -0.000837
+Sigma:         724.099339         41556.204812
+RCM Statistic: 5.574951 
+Percentage of classification: 94.060773
+Total number of observations: 6516.000000
+maximum: 22096.660000
+minimum: 0.000000
+mean: 5247.182242
+variance: 24622476.981445
+standard deviation: 4962.104088
+Skewness: 173866132156.203888
+Kurtosis: 2407021091952082.500000
+
+lv =
+
+  -100
+
+
+lv =
+
+  -100
+
+
+lv =
+
+  -100
+
+
+lv =
+
+  -100
+
+
+lv =
+
+  -100
+
+
+lv =
+
+  -100
+
+
+lv =
+
+  -100
+
+
+lv =
+
+  -100
+
+
+lv =
+
+  -100
+
+
+lv =
+
+  -100
+
+
+lv =
+
+  -100
+
+Parameters of our model NIG
+               Regime 1    Regime 2
+Alpha             0.001330          0.001660      
+Betha             0.000757          0.000080      
+Delta             5.603221          69.380969      
+Mu                -3.880216          -3.355581      
+
+Log Likelihood RS-Levy: -26881171418161356094253400435962903554686976.000000
+RS_Levy Case BIC: 53762342836322712188506800871925807109373952.000000 and AIC 53762342836322712188506800871925807109373952.000000 
+RS_Gaussian Case BIC: 69493.694176 and AIC 69439.438048 
+Log Likelihood Gaussian Case: -40267.312566
+Gaussian Case BIC: 80560.971180 and AIC 80540.625132 
+run('C:\Users\charl\Documents\_JRFM\Portfolio-Diversification-Revisited\code\MAIN.m')
+ 
+Gamma=0 for base regime
+Gamma=0 for spike regime
+ 
+Two state regime switching model with mean-reverting process for spikes, LogL=-34711.719
+ 
+regime   phi_i   c_i      sigma^2_i  E(Y_{t,i})  Var(Y_{t,i})  q_ii     P(R=i)
+base    1.00160  -2.08322  724.09934    1299.64104         NaN       0.98795  0.68359
+spike   1.00084  -5.19334  41556.20481    6203.77304         NaN       0.97397  0.31641
+Parameters of our model
+               Regime 1    Regime 2
+Alpha:         -2.083217          -5.193337      
+Betha:         -0.001603          -0.000837      
+Sigma:         26.909094          203.853390      
+Et             1299.641043          6203.773040      
+q_ii           0.987950          0.973966      
+P(R=i)         0.683586          0.316414      
+Theta:         1299.641043         6203.773040
+Kappa:         -0.001603         -0.000837
+Sigma:         724.099339         41556.204812
+RCM Statistic: 5.574951 
+Percentage of classification: 94.060773
+Total number of observations: 6516.000000
+maximum: 22096.660000
+minimum: 0.000000
+mean: 5247.182242
+variance: 24622476.981445
+standard deviation: 4962.104088
+Skewness: 173866132156.203888
+Kurtosis: 2407021091952082.500000
+Parameters of our model NIG
+               Regime 1    Regime 2
+Alpha             0.001330          0.001660      
+Betha             0.000757          0.000080      
+Delta             5.603221          69.380969      
+Mu                -3.880216          -3.355581      
+
+Log Likelihood RS-Levy: -26881171418161356094253400435962903554686976.000000
+RS_Levy Case BIC: 53762342836322712188506800871925807109373952.000000 and AIC 53762342836322712188506800871925807109373952.000000 
+RS_Gaussian Case BIC: 69493.694176 and AIC 69439.438048 
+Log Likelihood Gaussian Case: -40267.312566
+Gaussian Case BIC: 80560.971180 and AIC 80540.625132 
